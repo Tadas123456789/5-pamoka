@@ -1,0 +1,82 @@
+section#subscribe{
+    .subscribe-box{
+        
+        background-image: url(../assets/images/cta-bg.png);
+        background-color: #343a40;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        top: -100px;
+        border-radius: 5px;
+        min-height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-wrap: wrap;
+        /* padding: 50px;
+     */
+    }
+    
+   .left-side{
+    max-width: 500px;
+    h3{
+        color: #fff;
+        font-size: 26px;
+    }
+    p{
+        font-size: 16px;
+        font-family: "Monadali", sans-serif;
+        color: #adb5bd;
+    }
+
+    
+   }
+   
+   .right-side{
+    .input-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffffff1f;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 350px;
+        i{
+            margin: 0 10px;
+            color: #adb5bd;
+            font-size: 18px;
+        }
+
+        input{
+            outline: none;
+            border: none;
+            background-color: transparent;
+            font-family: "Mandoli", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+        }
+        button{
+            background-color: #1ce1ac;
+            outline: none;
+            border: none;
+            font-family: "Mandali", sans-serif;
+            font-size: 16px;
+            color: #fff;
+            font-weight: 500;
+            padding: 5px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            transition: all 0.5s;
+            box-shadow: 0 4px 8px 0 rgba(28, 225, 172, 0.2),
+            0 6px 20px 0 rgba(28, 225, 172, 0.19);
+        }
+    }
+
+   }
+    
+}

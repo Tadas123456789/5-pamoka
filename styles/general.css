@@ -1,0 +1,58 @@
+:root{
+    --tamsi-spalva: #343A40;
+    --akcentuojama-spalva: #1ce1ac;
+    --antrine-tamsi-spalva: 
+}
+
+@font-face {
+font-family: "mano sriftas";
+src: url("../assets/fonts/Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf") format("truetype");
+    }
+
+ @font-face {
+    font-family: "mano sriftas";
+    src: url("../assets/fonts/Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf") format("truetype");
+        }
+
+@font-face {
+        font-family: "mano sriftas";
+        src: url("../assets/fonts/Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-BoldItalic.ttf") format("truetype");
+            }
+
+
+body{
+    margin: 0;
+}
+
+*{
+    font-family: "Mandali", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "mano sriftas medium";
+    color: var(--tamsi-spalva);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 30px;
+}
+.bg-light{
+    background-color: #f8f9fa;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-accent{
+    color: var(--akcentuojama-spalva);
+}
+.text-dark{
+    color: var(--tamsi-spalva);
+}
+
+button{
+    cursor: pointer;
+}
